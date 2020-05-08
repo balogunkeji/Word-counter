@@ -1,0 +1,14 @@
+.container{
+    border: none;
+}
+
+.output{
+    display: inline;
+}
+
+.padd{
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}

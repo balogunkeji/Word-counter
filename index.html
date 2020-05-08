@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Word Counter</h1>
+        <textarea class="form-control mt-4" id="exampleFormControlTextarea1" cols="30" placeholder="Enter your text here....." rows="10"></textarea>
+        <div class="output row">
+            <div class="padd">
+                Characters: <span id="characterCount">0</span>
+            </div>
+            <div class="padd">
+                Words: <span id="wordCount">0</span>
+            </div>
+        </div>
+        <div class="output row">
+            <div class="padd">
+                Sentence: <span id="sentenceCount">0</span>
+            </div>
+            <div class="padd">
+                Paragraph: <span id="paragraphCount">0</span>
+            </div>
+            <div class="padd">
+                Reading Time: <span id="readCount">0s</span>
+            </div>
+        </div>
+
+        <div class="keywords padd">
+            Top Keywords: 
+            <ul id="topKeywords"></ul>
+        </div>
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>
